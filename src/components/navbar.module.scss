@@ -1,0 +1,45 @@
+@import 'src/scss/variables';
+@import 'src/scss/base';
+
+.navBarPlaceholder, .navBar {
+  width: 100%;
+  height: 50px;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(#15151f, .99);
+  z-index: 900;
+  nav {
+    display: flex;
+    width: 100%;
+    max-width: $layoutWidth;
+    margin: auto;
+    padding: 0 $layoutPadding;
+
+
+    a {
+      color: white;
+      text-decoration: none;
+      line-height: 50px;
+
+      margin: 0 10px;
+      font-weight: 200;
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.logo {
+        font-size: 1.2em;
+        font-weight: 400;
+        margin-right: auto;
+      }
+    }
+  }
+}

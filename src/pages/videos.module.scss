@@ -1,0 +1,59 @@
+$boxWidth: 300px;
+
+.videos {
+  .videoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      width: $boxWidth;
+      height: $boxWidth / 16 * 9;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      padding: 10px;
+      margin: 20px;
+      border-radius: 5px;
+      filter: grayscale(.5) brightness(.5);
+      transition: filter .25s, transform .25s, font-size .25s;
+
+      &:hover {
+        filter: grayscale(0) brightness(1);
+        transform: scale(1.5);
+        z-index: 100;
+        font-size: .75em;
+      }
+
+
+      .title {
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: bold;
+        margin-top: auto;
+      }
+
+      .timeAgo {
+        display: block;
+      }
+    }
+  }
+}
+
+@media(max-width: 1152px) {
+  .videos {
+    .videoGrid {
+      a {
+        &:hover {
+          transform: scale(1.25);
+        }
+      }
+    }
+  }
+}
