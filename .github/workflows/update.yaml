@@ -24,6 +24,8 @@ jobs:
 
     - run: npm run build
       name: Build Site
+      env:
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
     - name: Publish Site
       uses: cloudflare/wrangler-action@1.2.0
