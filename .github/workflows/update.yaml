@@ -2,7 +2,7 @@ name: Update Site
 
 on:
   push:
-  scheudle:
+  schedule:
     - cron: '0 0 * * *'
 
 jobs:
