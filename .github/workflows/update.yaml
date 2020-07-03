@@ -1,0 +1,31 @@
+name: Update Site
+
+on:
+  push:
+  scheudle:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    name: Update Site
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      name: Checkout Repo
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - run: npm install
+      name: Install Dependencies
+
+    - run: npm run build
+      name: Build Site
+
+    - name: Publish Site
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
