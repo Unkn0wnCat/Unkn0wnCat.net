@@ -15,7 +15,7 @@
     "gatsby-plugin-sharp": "^2.6.26",
     "gatsby-plugin-sitemap": "^2.4.11",
     "gatsby-plugin-styled-components": "^3.3.10",
-    "gatsby-source-filesystem": "^2.3.24",
+    "gatsby-source-filesystem": "^2.3.26",
     "gatsby-source-youtube-v2": "^1.0.1",
     "gatsby-transformer-remark": "^2.8.28",
     "gatsby-transformer-sharp": "^2.5.12",
