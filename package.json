@@ -13,7 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.26",
-    "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-plugin-sitemap": "^2.4.12",
     "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-source-youtube-v2": "^1.0.1",
