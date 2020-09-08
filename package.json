@@ -17,7 +17,7 @@
     "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-source-filesystem": "^2.3.27",
     "gatsby-source-youtube-v2": "^1.0.1",
-    "gatsby-transformer-remark": "^2.8.28",
+    "gatsby-transformer-remark": "^2.8.34",
     "gatsby-transformer-sharp": "^2.5.14",
     "html-to-react": "^1.4.3",
     "node-sass": "^4.14.1",
