@@ -1,11 +1,11 @@
 import React from "react"
 
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import styles from "./videos.module.scss"
+import * as styles from "./videos.module.scss"
 
 const makeStyle = function(image) {
   return {

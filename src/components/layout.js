@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import styles from "./layout.module.scss"
+import * as styles from "./layout.module.scss"
 import Navbar from "./navbar"
 
 const Layout = ({ children, noNavSpacer = false }) => {
