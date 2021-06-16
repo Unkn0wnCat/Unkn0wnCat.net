@@ -29,6 +29,6 @@ jobs:
 
     - name: Publish Site
       uses: cloudflare/wrangler-action@1.2.0
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
       with:
         apiToken: ${{ secrets.CF_API_TOKEN }}
