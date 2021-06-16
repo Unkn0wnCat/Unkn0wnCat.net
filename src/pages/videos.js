@@ -21,7 +21,7 @@ const VideoPage = ({ data }) => (
         <h1>Videos</h1>
         <div className={styles.videoGrid}>
           {data.allYoutubeVideo.nodes.map((node, index) => (
-            <a href={"https://youtu.be/"+node.videoId} style={makeStyle(node.localThumbnail.publicURL)} target={"_blank"} rel={"noreferrer"}>
+            <a href={"https://youtu.be/"+node.videoId} style={makeStyle(node.localThumbnail ? node.localThumbnail.publicURL : "https://source.unsplash.com/Vy2cHqm0mCs/1920x1080")} target={"_blank"} rel={"noreferrer"}>
               <span className={styles.title}>{node.title.replace(/ *\[[^)]*\] */g, "").replace(/\| Unkn0wnCat/g, "")}</span>
               <span className={styles.timeAgo}>{node.publishedAt}</span>
             </a>
