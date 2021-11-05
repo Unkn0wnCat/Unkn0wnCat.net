@@ -5,7 +5,7 @@
   "author": "Kevin Kandlbinder <kevin@kevink.dev>",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "gatsby": "^2.32.4",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-offline": "^3.10.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
