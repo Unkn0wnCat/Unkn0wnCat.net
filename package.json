@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "author": "Kevin Kandlbinder <kevin@kevink.dev>",
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^14.0.0",
     "gatsby": "^2.32.13",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-offline": "^3.10.1",
