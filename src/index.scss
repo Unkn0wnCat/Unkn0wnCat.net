@@ -16,6 +16,21 @@
 
     --color-footer-background: #1c1c1c;
     --color-footer-foreground: white;
+
+    @media(prefers-color-scheme: dark) {
+        --color-foreground: white;
+        --color-background: #0e0e0e;
+        --color-glass-background: #{rgba(#0e0e0e, 0.75)};
+        --color-primary: #3d2aec;
+        --color-primary-lighter: #503ef0;
+        --color-secondary: #e91b3e;
+        --color-secondary-lighter: #e43e5a;
+
+        --color-glass-primary: #{rgba(#503ef0, 0.45)};
+
+        --color-footer-background: #1c1c1c;
+        --color-footer-foreground: white;
+    }
 }
 
 * {
