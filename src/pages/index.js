@@ -9,6 +9,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import {Steam, Twitch, Twitter, Youtube} from "@icons-pack/react-simple-icons";
 
 const IndexPage = ({ data }) => <Layout topBarHome={true}>
+    <SEO description="Unkn0wnCat - Gamer, Coder, Video Producer - Learn more about me here!" title="Unkn0wnCat" />
     <div className={styles.heroOuter}>
         <div className={styles.hero}>
             <div className={styles.heroHalo}></div>

@@ -68,7 +68,9 @@ function SEO({ description, lang, meta, title }) {
                     content: metaDescription,
                 },
             ].concat(meta)}
-        ></Helmet>
+        >
+            <script defer data-domain="unkn0wncat.net" src="https://analytics.kevink.dev/js/plausible.js"></script>
+        </Helmet>
     );
 }
 

@@ -20,7 +20,7 @@ const makeStyle = function (image) {
 
 const VideoPage = ({ data }) => {
     return <Layout>
-        <SEO title="Videos" />
+        <SEO title="Videos" description="Unkn0wnCat's newest Videos, fresh from the oven!" />
         <div className={styles.videos}>
             <div>
                 <h1>Videos</h1>
