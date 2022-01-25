@@ -1,0 +1,31 @@
+$fontMain: "Noto Sans Display", "Noto Sans", sans-serif;
+$layoutPadding: 20px;
+$layoutNavHeight: 60px;
+$layoutBorderRadius: 5px;
+$layoutWidth: 1100px;
+
+@mixin layoutBox {
+    max-width: $layoutWidth;
+    width: 100%;
+    padding: $layoutPadding;
+    margin: 0 auto;
+}
+
+@mixin glass {
+    background-color: var(--color-background);
+
+    @supports (backdrop-filter: blur(10px)) {
+        background-color: var(--color-glass-background);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@mixin floatingBoxShadow {
+    box-shadow: 0 20px 20px rgba(black, 0.05);
+}
+
+@mixin respectReducedMotion {
+    @media (prefers-reduced-motion: reduce) {
+        transition: none !important;
+    }
+}

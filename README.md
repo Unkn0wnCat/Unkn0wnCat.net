@@ -1,5 +1,6 @@
 # Unkn0wnCat.net
-*Made using Gatsby and Cloudflare Workers*
+
+_Made using Gatsby and Cloudflare Workers_
 ![Update Site](https://github.com/Unkn0wnCat/Unkn0wnCat.net/workflows/Update%20Site/badge.svg)
 
 This repository contains the code used to run the website Unkn0wnCat.net.

@@ -1,143 +1,134 @@
-@import 'src/scss/variables';
-@import 'src/scss/base';
+@import "../globals";
 
-.hero {
-  width: 100%;
-  height: 100vh;
-  min-height: 400px;
-  background: radial-gradient(ellipse at top left,rgba(#1f0ba6, .2313),transparent), radial-gradient(ellipse at bottom right,rgba(#4a0868, .1137),transparent);
-  background-color: #1c1c1c;
-  z-index: 200;
+$layoutTwoColBreakpoint: 800px;
 
-  > div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    background: linear-gradient(to right, #F27121, #E94057, #9A3397);
-    text-shadow: 0 0 10px 0 black;
-    padding: 0;
-    background-clip: text;
+    .hero {
+        margin-top: -$layoutNavHeight;
+    
+        
+        height: 100%;
+        min-height: 880px;
+    
+    
+        position: relative;
+        overflow: hidden;
 
+        .heroHalo {
+            position: absolute;
+            left: 50%;
+            transform: translate(-63%, 0);
+            background: radial-gradient(circle at 44% 50%, var(--color-glass-primary) 0, transparent 40%);
+            width: 70%;
+            height: 100%;
+            transition: opacity .25s;
 
-    > span {
-      display: block;
-      color: transparent;
-
-      &.title {
-        font-size: 4em;
-        font-family: $boldFont;
-        font-weight: 900;
-      }
-
-      &.subtitle {
-        font-size: 1.5em;
-        color: white;
-      }
-    }
-  }
-}
-
-@media(max-width: 600px) {
-  .hero {
-    font-size: .8em;
-    > div {
-      left: 0;
-      transform: translate(0, -50%);
-    }
-  }
-}
-
-@media(max-width: 420px) {
-  .hero {
-    > div {
-      > span.title {
-        font-size: 3em;
-      }
-    }
-  }
-}
-
-@media(max-width: 320px) {
-  .hero {
-    > div {
-      > span.title {
-        font-size: 2em;
-      }
-    }
-  }
-}
-
-.social {
-  text-align: left;
-
-  small {
-    display: block;
-    text-align: center;
-  }
-
-  .socialGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    > a {
-      text-decoration: none;
-      width: 300px;
-      height: 200px;
-      background: white;
-      margin: 10px 20px;
-      border-radius: 5px;
-      display: flex;
-      overflow: hidden;
-      transform: scale(1);
-      transition: transform .25s;
-      flex-direction: column;
-
-      > span.handle {
-        color: white;
-        opacity: .5;
-        font-weight: 400;
-        font-size: 1em;
-        margin: auto 10px -5px auto;
-        transition: opacity .25s;
-        text-align: right;
-      }
-
-      > span.service {
-        color: white;
-        opacity: .5;
-        font-family: $boldFont;
-        font-weight: 900;
-        font-size: 3em;
-        text-align: right;
-        transition: opacity .25s;
-        margin: 0 10px 10px 0;
-      }
-
-      &:hover {
-        transform: scale(1.2);
-        > span {
-          opacity: 1;
+            @media (max-width: $layoutTwoColBreakpoint) {
+                opacity: 0;
+            }
         }
-      }
+    
+        .heroImage {
+            position: absolute;
+            transform: translate(-130%, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 50px;
+            left: 50%;
+            height: 90%;
+            max-width: 330px;
+            width: 30%;
+            transition: width .25s;
+    
+            @media (max-width: $layoutTwoColBreakpoint) {
+                width: 0;
+            }
+        }
+    
+        .heroBox, .heroBoxBg {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            width: 400px;
+            height: 400px;
+            transition: transform .25s, clip-path .25s, width .25s, height .25s;
+    
+            @media (max-width: $layoutTwoColBreakpoint) {
+                transform: translate(-50%, 0);
+            }
+    
+            @media (max-width: 400px) {
+                clip-path: polygon(0 0,100% 0,100% 100%,0 100%) !important;
+                
+                &.heroBoxBg {
+                    height: 410px;
+                    transform: translate(-50%, -5px);
+                    width: 100%;
+                }
+                
+                &.heroBox {
+                    width: calc(100% - 10px);
+                }
+    
+                > div {
+                    transform: rotate(0deg) !important;
+                    padding: $layoutPadding !important;
+                }
+            }
+        }
+    
+        .heroBox {
+            clip-path: polygon(6% 8%,88% 5%,95% 91%,7% 96%);
+            background-color: var(--color-primary-lighter);
+            color: white;
+    
+            > div {
+                transform: rotate(-2deg);
+                padding: 45px;
+                display: flex;
+                flex-direction: column;
+                transition: transform .25s, padding .25s;
+    
+                .name {
+                    font-size: 2em;
+                    font-weight: 700;
+                }
+    
+                .description {
+                    margin-bottom: 25px;
+                }
+    
+                a {
+                    color: inherit;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+    
+                    svg {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    
+        .heroBoxBg {
+            clip-path: polygon(14% 4%,95% 1%,88% 96%,2% 89%);
+            background-color: var(--color-secondary-lighter);
+        }
 
-      /*&.youtube {
-        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://cdn.kevink.dev/ucnet/images/yt-1536240478700-b869070f9279.jpg);
-      }
+        .artCredit {
+            position: absolute;
+            bottom: $layoutPadding;
+            left: 50%;
+            padding: 0 $layoutPadding;
+            color: white;
+            opacity: .25;
+            transition: opacity .25s;
+            transform: translate(-150%, 0);
 
-      &.twitch {
-        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://cdn.kevink.dev/ucnet/images/twitch.jpg);
-      }
-
-      &.twitter {
-        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://cdn.kevink.dev/ucnet/images/twitter-1543185377-aa2f876d1760.jpg);
-      }
-
-      &.steam {
-        background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://cdn.kevink.dev/ucnet/images/steam-1538481199705-c710c4e965fc.jpg);
-      }*/
+            @media (max-width: $layoutTwoColBreakpoint) {
+                opacity: 0;
+            }
+        }
     }
-  }
-}
+
