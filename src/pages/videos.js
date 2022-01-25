@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { graphql } from "gatsby";
 
@@ -13,11 +13,13 @@ const makeStyle = function (image) {
             "linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .75)), url(" +
             image +
             ")",
+        backgroundColor: "black",
+        
     };
 };
 
-const VideoPage = ({ data }) => (
-    <Layout>
+const VideoPage = ({ data }) => {
+    return <Layout>
         <SEO title="Videos" />
         <div className={styles.videos}>
             <div>
@@ -33,6 +35,7 @@ const VideoPage = ({ data }) => (
                             )}
                             target={"_blank"}
                             rel={"noreferrer"}
+                            key={node.videoId}
                         >
                             <span className={styles.title}>
                                 {node.title
@@ -48,7 +51,7 @@ const VideoPage = ({ data }) => (
             </div>
         </div>
     </Layout>
-);
+}
 
 export const query = graphql`
     query {

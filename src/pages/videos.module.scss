@@ -5,6 +5,7 @@ $boxWidth: 300px;
 
 .videos {
     @include layoutBox;
+    padding-top: 40px;
 
     .videoGrid {
         display: flex;
@@ -28,7 +29,7 @@ $boxWidth: 300px;
 
             &:hover, &:focus {
                 filter: grayscale(0) brightness(1);
-                transform: scale(1.5);
+                transform: scale(1.25);
                 z-index: 100;
                 font-size: 0.75em;
             }
