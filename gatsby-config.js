@@ -45,7 +45,7 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
-    {
+    /*{
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Unkn0wnCat.net`,
@@ -58,18 +58,7 @@ module.exports = {
         icon: `src/images/Unkn0wnCat.net.png`, // This path is relative to the root of the site.
         cache_busting_mode: 'none'
       },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: ["/"],
-        workboxConfig: {
-          globPatterns: ['**/*']
-        }
-      },
-    },
+    },*/
 
   ],
 }
