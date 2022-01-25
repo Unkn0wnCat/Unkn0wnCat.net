@@ -1,3 +1,4 @@
+export const artCredit: string;
 export const description: string;
 export const hero: string;
 export const heroBox: string;

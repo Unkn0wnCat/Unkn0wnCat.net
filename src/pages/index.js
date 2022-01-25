@@ -35,6 +35,8 @@ const IndexPage = ({ data }) => <Layout topBarHome={true}>
                     <a href="https://twitter.com/Unkn0wnKevin" target="_blank" rel="noreferrer"><Twitter/> @Unkn0wnKevin</a>
                 </div>
             </div>
+
+            <a className={styles.artCredit} href="https://twitter.com/Pericote9" target="_blank" rel="noopener">Chibi drawn by @Pericote9</a>
         </div>
 </Layout>;
 
