@@ -2,15 +2,12 @@
 
 $layoutTwoColBreakpoint: 800px;
 
-
-.heroOuter {
-    
     .hero {
         margin-top: -$layoutNavHeight;
     
         
         height: 100%;
-        min-height: 900px;
+        min-height: 880px;
     
     
         position: relative;
@@ -118,5 +115,4 @@ $layoutTwoColBreakpoint: 800px;
             background-color: var(--color-secondary-lighter);
         }
     }
-}
 
