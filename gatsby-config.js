@@ -10,6 +10,7 @@ module.exports = {
         siteUrl: `https://unkn0wncat.net`,
     },
     plugins: [
+        `gatsby-plugin-remove-serviceworker`,
         {
             resolve: `gatsby-plugin-typescript`,
             options: {
