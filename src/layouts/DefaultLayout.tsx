@@ -56,7 +56,7 @@ const Layout = (props: React.PropsWithChildren<LayoutProps>) => {
             <footer className={styles.footer}>
                 CC-BY-4.0 Kevin Kandlbinder |{" "}
                 <a
-                    href="https://kevink.dev/legal/imprint"
+                    href="https://kevink.dev/legal/about"
                     target="_blank"
                     rel="noreferrer"
                 >
