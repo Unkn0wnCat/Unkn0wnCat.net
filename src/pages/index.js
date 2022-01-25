@@ -7,6 +7,7 @@ import * as styles from "./index.module.scss";
 import Layout from "../layouts/DefaultLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import {Steam, Twitch, Twitter, Youtube} from "@icons-pack/react-simple-icons";
+import {Axe, Gamepad2} from "lucide-react";
 
 const IndexPage = ({ data }) => <Layout topBarHome={true}>
     <SEO description="Unkn0wnCat - Gamer, Coder, Video Producer - Learn more about me here!" title="Unkn0wnCat" />
@@ -32,7 +33,7 @@ const IndexPage = ({ data }) => <Layout topBarHome={true}>
                     <a href="https://www.twitch.tv/thatunkn0wncat" target="_blank" rel="noreferrer"><Twitch/> ThatUnkn0wnCat</a>
                     <a href="https://twitter.com/Unkn0wnKevin" target="_blank" rel="noreferrer"><Twitter/> @Unkn0wnKevin</a>
                     <a href="https://steamcommunity.com/id/unkn0wncat" target="_blank" rel="noreferrer"><Steam/> Unkn0wnCat</a>
-                    <a href="https://twitter.com/Unkn0wnKevin" target="_blank" rel="noreferrer"><Twitter/> @Unkn0wnKevin</a>
+                    <a href="https://kreig.de/de/members/75eec884-c9fc-4626-82bd-f0fdaaa1a4c0" target="_blank" rel="noreferrer"><Gamepad2/> My Clan (KREIG)</a>
                 </div>
             </div>
 
