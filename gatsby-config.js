@@ -36,7 +36,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-youtube-v2`,
+      resolve: `gatsby-source-youtube-v3`,
       options: {
         channelId: ['UCCoZp-6_P3CVFj4clQ6uaeg'],
         apiKey: process.env.YOUTUBE_API_KEY,

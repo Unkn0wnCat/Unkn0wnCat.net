@@ -1,31 +1,31 @@
 {
   "name": "unkn0wncat-net",
   "description": "Unkn0wnCat.net",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Kevin Kandlbinder <kevin@kevink.dev>",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "gatsby": "^2.32.13",
-    "gatsby-plugin-manifest": "^2.12.1",
-    "gatsby-plugin-offline": "^3.10.1",
-    "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby-plugin-sass": "^2.8.0",
-    "gatsby-plugin-sharp": "^2.14.4",
-    "gatsby-plugin-sitemap": "^2.12.0",
-    "gatsby-plugin-styled-components": "^3.10.0",
+    "dotenv": "^14.3.0",
+    "gatsby": "^4.6.0",
+    "gatsby-plugin-manifest": "^4.6.0",
+    "gatsby-plugin-offline": "^5.6.0",
+    "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-sass": "^5.6.0",
+    "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-plugin-sitemap": "^5.6.0",
+    "gatsby-plugin-styled-components": "^5.6.0",
     "gatsby-source-filesystem": "^4.2.0",
-    "gatsby-source-youtube-v2": "^1.0.1",
-    "gatsby-transformer-remark": "^2.16.1",
-    "gatsby-transformer-sharp": "^2.12.0",
+    "gatsby-source-youtube-v3": "^3.0.2",
+    "gatsby-transformer-remark": "^5.6.0",
+    "gatsby-transformer-sharp": "^4.6.0",
     "html-to-react": "^1.4.7",
-    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.49.0"
   },
   "devDependencies": {
-    "prettier": "2.4.1"
+    "prettier": "2.5.1"
   },
   "keywords": [
     "gatsby"

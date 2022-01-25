@@ -11,9 +11,6 @@ import steamImage from "../images/assets/steam.jpg"
 
 import * as styles from "./index.module.scss";
 
-const HtmlToReactParser = require('html-to-react').Parser;
-let parser = new HtmlToReactParser();
-
 const makeStyle = function(image) {
   return {
     backgroundImage: "linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("+image+")"
@@ -33,7 +30,10 @@ const IndexPage = ({ data }) => (
       <div>
         <h1>About me</h1>
 
-        { parser.parse(data.allMarkdownRemark.edges[0].node.html) }
+        <div
+          className="about-content"
+          dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }}
+        />
       </div>
     </section>
     <section className={styles.social}>
@@ -66,7 +66,7 @@ const IndexPage = ({ data }) => (
 export const query = graphql`
 query {
   allMarkdownRemark(
-    filter: {fileAbsolutePath: {regex: "/home_about\\\\.md$/"}}
+    filter: {fileAbsolutePath: {regex: "/home_about.md$/"}}
   ) {
     edges {
       node {
@@ -75,7 +75,6 @@ query {
     }
   }
 }
-
 `
 
 export default IndexPage
