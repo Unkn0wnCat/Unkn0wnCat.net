@@ -4,8 +4,7 @@
 $boxWidth: 300px;
 
 .videos {
-    @include layoutBox;
-    padding-top: 40px;
+    @include layoutBoxFirst;
 
     .videoGrid {
         display: flex;

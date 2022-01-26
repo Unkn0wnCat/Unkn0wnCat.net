@@ -11,6 +11,11 @@ $layoutWidth: 1100px;
     margin: 0 auto;
 }
 
+@mixin layoutBoxFirst {
+    @include layoutBox;
+    padding-top: 40px;
+}
+
 @mixin glass {
     background-color: var(--color-background);
 
