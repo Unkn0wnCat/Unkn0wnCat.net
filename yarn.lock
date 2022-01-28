@@ -1040,10 +1040,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/noto-sans-display@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.1.tgz#a40cbe2c4d7589981ef3348f87a2e6d83ecbc972"
-  integrity sha512-+QNtGChngf5HbUiu1UTnzIfupEOXRZsklrUgr1XJ7QqIXvJvMrG798ukzy/0G8g0mUSdbD6libqKgLT25T7P5Q==
+"@fontsource/noto-sans-display@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.2.tgz#a5dddfa75a2d1404c276ade1acb176c41b318274"
+  integrity sha512-X3gwRFzlLQD7RSH9holathc9Wo/+muqHcC76zsb4/8CD1izWd3YB7bQ9lPDlJiuOk4jCCjj/RY45ViHDYNUQLg==
 
 "@gatsbyjs/reach-router@^1.3.6":
   version "1.3.6"
