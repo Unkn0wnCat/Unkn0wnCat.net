@@ -5449,7 +5449,7 @@ gatsby-cli@^4.8.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.6.0, gatsby-core-utils@^3.8.0, gatsby-core-utils@^3.9.0:
+gatsby-core-utils@^3.8.0, gatsby-core-utils@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.9.0.tgz#7be5969622e44c4475cb14f1ac64b49a4072ab6c"
   integrity sha512-SvPnr86oXTY3ldbQ4QAkEew3BQE9vlzUXcXVJqTOhMUeGEz2kibBFUmVp8ia9Y1eOD+K/0xXQ54jUqaResj69w==
@@ -7746,10 +7746,10 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-lucide-react@^0.17.6:
-  version "0.17.6"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.17.6.tgz#2c626c22e7536fc5e5271d6eca5d77613cebed1f"
-  integrity sha512-ls4nXxPl57+Iy39v9wzcW4rC19zxy8303bJQPfbUVpXqPQlfax7C29fso6SYITHifX7NOZB4qPhRJ6R6nhTVsQ==
+lucide-react@^0.17.8:
+  version "0.17.8"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.17.8.tgz#e60ed6830524a52a426cd936f0ad4bb0d5358149"
+  integrity sha512-92PLQcO9tpsleEsa0HZ8Hl1HHSrcLtFI5TIll4iX668bn/RNHRg/3YUVZ6W1i7jYTShbi+ghEzfX0JzYreiAyA==
 
 make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
