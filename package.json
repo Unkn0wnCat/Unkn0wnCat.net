@@ -19,7 +19,7 @@
     "gatsby-source-filesystem": "^4.9.1",
     "gatsby-source-youtube-v3": "^3.0.2",
     "gatsby-transformer-remark": "^5.9.1",
-    "gatsby-transformer-sharp": "^4.8.0",
+    "gatsby-transformer-sharp": "^4.10.0",
     "lucide-react": "^0.17.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
