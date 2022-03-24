@@ -5568,10 +5568,10 @@ gatsby-plugin-remove-serviceworker@^1.0.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
   integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
-gatsby-plugin-sass@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-5.9.0.tgz#bd1e392bda23e9f6519d9bf189f4b8d5daa25422"
-  integrity sha512-yxl6g9KXNriOfJQN3Ra1tZragPXq6bXYY8AsrzBfsuUkYUU75ReWVtFljVSXYp/7/tpA4mvXwniBcWqrNSdHnA==
+gatsby-plugin-sass@^5.10.2:
+  version "5.10.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-5.10.2.tgz#c5657d5cc17aa894e000ba5e092f4019dded329d"
+  integrity sha512-jlsGnYlMElapqTEBVEZTCmh50YFwLhsXieXY6cZhRhXESciE6VfU47bqgxbsWIceqxuVJ/SIhmwAk4xP7qKBhA==
   dependencies:
     "@babel/runtime" "^7.15.4"
     resolve-url-loader "^3.1.4"
