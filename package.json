@@ -9,7 +9,7 @@
     "dotenv": "^16.0.0",
     "gatsby": "^4.8.0",
     "gatsby-plugin-image": "^2.9.1",
-    "gatsby-plugin-manifest": "^4.8.0",
+    "gatsby-plugin-manifest": "^4.10.2",
     "gatsby-plugin-react-helmet": "^5.9.0",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sharp": "^4.10.0",
