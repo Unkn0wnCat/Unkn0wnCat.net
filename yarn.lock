@@ -1040,10 +1040,19 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/noto-sans-display@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.4.tgz#cecc98e4e80998ca9c2dd9e38f3b3c8edd55157e"
-  integrity sha512-Mvi2unsTKAfLAJSicS7jL6pzVbE3ZDpETA6pJx0c99ZnIJA6BPwCfC22iMy39thGJ8A5I9x7axunMvrPSh03ow==
+"@fontsource/noto-sans-display@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.6.tgz#025efb2ed9283bab4332717817a117d465112f80"
+  integrity sha512-a0GUmvz80v4534oW/e2os4QeeHzZRvRrXQI46YmZN9F8gtMyP47nRNTDj/aYD01S9zj5/dBMri3nJqQIPaKqWg==
+
+"@gatsbyjs/parcel-namer-relative-to-cwd@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-0.0.2.tgz#e1586f1796aa773e53e0909025ea16e423c14391"
+  integrity sha512-ZeGxCbx13+zjpE/0HuJ/tjox9zfiYq9fGoAAi+RHP5vHSJCmJVO5hZbexQ/umlUyAkkkzC4p1WIpw1cYQTA8SA==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@parcel/plugin" "2.3.1"
+    gatsby-core-utils "^3.8.2"
 
 "@gatsbyjs/parcel-namer-relative-to-cwd@0.0.2":
   version "0.0.2"
