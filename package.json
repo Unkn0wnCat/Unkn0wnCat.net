@@ -8,7 +8,7 @@
     "@icons-pack/react-simple-icons": "^4.6.1",
     "dotenv": "^16.0.0",
     "gatsby": "^4.12.1",
-    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-image": "^2.14.0",
     "gatsby-plugin-manifest": "^4.12.1",
     "gatsby-plugin-react-helmet": "^5.12.1",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
