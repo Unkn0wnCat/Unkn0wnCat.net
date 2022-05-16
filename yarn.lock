@@ -1040,10 +1040,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/noto-sans-display@^4.5.8":
-  version "4.5.8"
-  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.8.tgz#8c219aa3cc9205ec78034e18919cd9c114ef7416"
-  integrity sha512-zQPH0wqb/3jRnbQqCvxkvU8nFwj75ZsgctZ17VCPl7UaXrZtDa4mWiU3AAyN4/mus49rDtSCjFZXkLSxbuOsKQ==
+"@fontsource/noto-sans-display@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-display/-/noto-sans-display-4.5.9.tgz#08fad9b78a4d3bff10e0a53f050f44905cec6e8f"
+  integrity sha512-JR4bB5Sr6BBV+O0mD8h9HglMKmblOCDjBUzlsRrlM6d6q2hTXl+Lk2O61tqIeL0lDw1OR4JT9lH9IaJb+N8CBQ==
 
 "@gatsbyjs/parcel-namer-relative-to-cwd@0.0.2":
   version "0.0.2"
