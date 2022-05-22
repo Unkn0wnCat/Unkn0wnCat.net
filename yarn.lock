@@ -1643,10 +1643,10 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@icons-pack/react-simple-icons@^4.6.1":
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.6.1.tgz#47e07a43ff90ce3ff7d64806cdac76fa68b986fc"
-  integrity sha512-ICONbofFzeTkXvmbnptDv4P9cqtW/N/8EFOqyzJQJ80b8fJoLzqhM7EKslBmWziIwjY9FBnOoL2ofzQOoDG1Gg==
+"@icons-pack/react-simple-icons@^4.7.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.7.0.tgz#2429df1fca204f696f5a143339d0f3c5e6bd6b68"
+  integrity sha512-anz/4ucpcdvN+622AjfmCtqSLp4GCg0VuyCIXqWyAZ3mjAtSmSWMoL5aVD4irSJlMW+yCqHxRSslfZFwcE3q0A==
   dependencies:
     prop-types "^15.7.2"
 
@@ -6824,7 +6824,7 @@ gatsby-cli@^4.14.0:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.12.1, gatsby-core-utils@^3.14.0, gatsby-core-utils@^3.8.2:
+gatsby-core-utils@^3.14.0, gatsby-core-utils@^3.8.2:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.14.0.tgz#75d30a4a91701315674a798896a5fcdf4b31c72e"
   integrity sha512-JavHwcX5L+ZRoL5FKhYex3JfbwwS0273YTpf8y8SRKsObD8H+bbLOUlbOjASpqy+IU3dW+r76gT1dQdaqeH9Og==
@@ -7023,7 +7023,7 @@ gatsby-plugin-typescript@^4.14.0, gatsby-plugin-typescript@^4.6.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.14.0"
 
-gatsby-plugin-utils@^3.6.1, gatsby-plugin-utils@^3.8.0:
+gatsby-plugin-utils@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.8.0.tgz#ef497c15f57fbe17cb5d58ae15325e31689e5db0"
   integrity sha512-dLFk+4E2BJrSuPz5/cLUyw4/dDbyMtruLww2XnFk34DVxg16FHIBYcY7p5IbfmDiBmMtlgJFqxBHj1zt8l6syw==
@@ -7102,7 +7102,7 @@ gatsby-source-youtube-v3@^3.0.2:
     gatsby-source-filesystem "^1.5.27"
     lodash "^4.17.5"
 
-gatsby-telemetry@^3.12.1, gatsby-telemetry@^3.14.0:
+gatsby-telemetry@^3.14.0:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.14.0.tgz#6f3903a60c0918b98b3a9d2645a464be1b642489"
   integrity sha512-QnlN3nvb+1gYsY6cIQKAuvkhx9uoOg71yuEYB0EFQdgcnyIbWlBVRHId8wOXoQHwRYFmatvxBmcKlVF8FCs61A==
