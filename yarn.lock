@@ -6476,27 +6476,6 @@ gatsby-core-utils@^3.14.0, gatsby-core-utils@^3.15.0, gatsby-core-utils@^3.16.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-core-utils@^3.16.0:
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.16.0.tgz#055e250614221b77168d0ca507a56a87d2cdbf35"
-  integrity sha512-cr3aIlzfzQkXSKng0dfAkg+v+Q0WOFJ1CCpM6HFvMykYtw5vSdaLxs6gwNmtPowG1wmCHkQ+pcyqppP+IdmVsg==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    ci-info "2.0.0"
-    configstore "^5.0.1"
-    fastq "^1.13.0"
-    file-type "^16.5.3"
-    fs-extra "^10.1.0"
-    got "^11.8.3"
-    import-from "^4.0.0"
-    lmdb "2.3.10"
-    lock "^1.1.0"
-    node-object-hash "^2.3.10"
-    proper-lockfile "^4.1.2"
-    resolve-from "^5.0.0"
-    tmp "^0.2.1"
-    xdg-basedir "^4.0.0"
-
 gatsby-graphiql-explorer@^2.15.0:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-2.15.0.tgz#48cda38dba3aaf4c4e5f5884a43d16826d252d59"
@@ -11503,10 +11482,10 @@ sass-loader@^10.1.1:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sass@^1.52.1:
-  version "1.52.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.1.tgz#554693da808543031f9423911d62c60a1acf7889"
-  integrity sha512-fSzYTbr7z8oQnVJ3Acp9hV80dM1fkMN7mSD/25mpcct9F7FPBMOI8krEYALgU1aZoqGhQNhTPsuSmxjnIvAm4Q==
+sass@^1.52.3:
+  version "1.52.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.3.tgz#b7cc7ffea2341ccc9a0c4fd372bf1b3f9be1b6cb"
+  integrity sha512-LNNPJ9lafx+j1ArtA7GyEJm9eawXN8KlA1+5dF6IZyoONg1Tyo/g+muOsENWJH/2Q1FHbbV4UwliU0cXMa/VIA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
