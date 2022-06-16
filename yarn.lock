@@ -1648,12 +1648,10 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
-"@icons-pack/react-simple-icons@^4.7.0":
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-4.7.0.tgz#2429df1fca204f696f5a143339d0f3c5e6bd6b68"
-  integrity sha512-anz/4ucpcdvN+622AjfmCtqSLp4GCg0VuyCIXqWyAZ3mjAtSmSWMoL5aVD4irSJlMW+yCqHxRSslfZFwcE3q0A==
-  dependencies:
-    prop-types "^15.7.2"
+"@icons-pack/react-simple-icons@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-5.1.1.tgz#8798bc26ed52489be2f7c6fe1d955ce15c7250c1"
+  integrity sha512-LBSjxHinzyPcyPHOphnqCZjzZgU+csdj75tUYIrLKezLWeZMK3HkLblIloA6uQ7x4E9cMPZgXPy7mG9RYdw15Q==
 
 "@jimp/bmp@^0.16.1":
   version "0.16.1"
