@@ -29,7 +29,7 @@
     "typed-scss-modules": "^6.4.1"
   },
   "devDependencies": {
-    "prettier": "2.6.2"
+    "prettier": "2.7.1"
   },
   "keywords": [
     "gatsby"
