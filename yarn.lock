@@ -6769,7 +6769,7 @@ gatsby-source-youtube-v3@^3.0.2:
     gatsby-source-filesystem "^1.5.27"
     lodash "^4.17.5"
 
-gatsby-telemetry@^3.16.0, gatsby-telemetry@^3.17.0:
+gatsby-telemetry@^3.17.0:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-3.17.0.tgz#de5b094340d714969ac5a5f01ed19999d3b9557e"
   integrity sha512-1N4uKj2Yj7AykLmwjsdOmNirf3UmP8CBXjj/LmWf5cLDVbdPqkirAlyD6uTeEliG5UFHPTlBsRi26v558mFYJQ==
@@ -8923,10 +8923,10 @@ lru-queue@^0.1.0:
   dependencies:
     es5-ext "~0.10.2"
 
-lucide-react@^0.68.0:
-  version "0.68.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.68.0.tgz#837f5b558b544fe8488ff8a546c5b340a17b51df"
-  integrity sha512-qeO4xDgMi+hJZOZeETy0kgYA7nuWfsYXVyDKr7Q+BUHfPq/rLAN4iYM+UWMjbwfNxmtA0uUIMLmxtTWeBugQPw==
+lucide-react@^0.72.0:
+  version "0.72.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.72.0.tgz#75444158bfb2a3dcab38c0059bc7b3b187d99f8a"
+  integrity sha512-H6fK3mXylt0looxFwHu6z0MuMRdAdLG80GU7H5Z7GeFQ5m8Bjw2qEfYj7mXXtj5AweF66B+mF3SagXAfV/2SnQ==
 
 make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
