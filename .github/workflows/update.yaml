@@ -19,17 +19,13 @@ jobs:
       with:
         node-version: '17.x'
 
-    - uses: borales/actions-yarn@v2.3.0
+    - run: yarn
       name: Install Dependencies
-      with:
-        cmd: install # will run `yarn install` command
 
-    - uses: borales/actions-yarn@v2.3.0
-      name: Build Site
+    - name: Build Site
       env:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      with:
-        cmd: build # will run `yarn build` command
+      run: yarn build
 
     - name: Publish Site
       uses: cloudflare/wrangler-action@1.2.0
