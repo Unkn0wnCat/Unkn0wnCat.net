@@ -25,7 +25,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.53.0",
+    "sass": "^1.54.7",
     "typed-scss-modules": "^6.5.0"
   },
   "devDependencies": {
