@@ -1257,7 +1257,7 @@
     "@parcel/plugin" "2.6.2"
     gatsby-core-utils "^3.22.0"
 
-"@gatsbyjs/potrace@^2.2.0", "@gatsbyjs/potrace@^2.3.0":
+"@gatsbyjs/potrace@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/potrace/-/potrace-2.3.0.tgz#0ac22fb56a02ebc64ce55e4666c4b741cbf27377"
   integrity sha512-72szhSY/4tPiPPOzq15CG6LW0s9FuWQ86gkLSUvBNoF0s+jsEdRaZmATYNjiY2Skg//EuyPLEqUQnXKXME0szg==
@@ -6183,7 +6183,7 @@ gatsby-plugin-typescript@^4.22.0, gatsby-plugin-typescript@^4.6.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.22.0"
 
-gatsby-plugin-utils@^3.15.0, gatsby-plugin-utils@^3.16.0:
+gatsby-plugin-utils@^3.16.0:
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.16.0.tgz#c789486e27c7ac6470159a82d86c066848be623e"
   integrity sha512-GemN7/f+yxQQuOPeq+Q7hoVY9TTeN3LdL8b8q+a4qBBjHBwp4w+hcYR4j+pPYUFMya9dvOyMZcc3pkfhMGUaRw==
@@ -10731,10 +10731,10 @@ sass-loader@^10.1.1:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sass@^1.54.8:
-  version "1.54.8"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.8.tgz#4adef0dd86ea2b1e4074f551eeda4fc5f812a996"
-  integrity sha512-ib4JhLRRgbg6QVy6bsv5uJxnJMTS2soVcCp9Y88Extyy13A8vV0G1fAwujOzmNkFQbR3LvedudAMbtuNRPbQww==
+sass@^1.54.9:
+  version "1.54.9"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.9.tgz#b05f14ed572869218d1a76961de60cd647221762"
+  integrity sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
