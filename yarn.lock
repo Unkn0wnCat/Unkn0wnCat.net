@@ -1257,7 +1257,7 @@
     "@parcel/plugin" "2.6.2"
     gatsby-core-utils "^3.22.0"
 
-"@gatsbyjs/potrace@^2.2.0", "@gatsbyjs/potrace@^2.3.0":
+"@gatsbyjs/potrace@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/potrace/-/potrace-2.3.0.tgz#0ac22fb56a02ebc64ce55e4666c4b741cbf27377"
   integrity sha512-72szhSY/4tPiPPOzq15CG6LW0s9FuWQ86gkLSUvBNoF0s+jsEdRaZmATYNjiY2Skg//EuyPLEqUQnXKXME0szg==
@@ -6183,7 +6183,7 @@ gatsby-plugin-typescript@^4.22.0, gatsby-plugin-typescript@^4.6.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.22.0"
 
-gatsby-plugin-utils@^3.15.0, gatsby-plugin-utils@^3.16.0:
+gatsby-plugin-utils@^3.16.0:
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.16.0.tgz#c789486e27c7ac6470159a82d86c066848be623e"
   integrity sha512-GemN7/f+yxQQuOPeq+Q7hoVY9TTeN3LdL8b8q+a4qBBjHBwp4w+hcYR4j+pPYUFMya9dvOyMZcc3pkfhMGUaRw==
@@ -11827,10 +11827,10 @@ type@^2.5.0:
   resolved "https://registry.yarnpkg.com/type/-/type-2.5.0.tgz#0a2e78c2e77907b252abe5f298c1b01c63f0db3d"
   integrity sha512-180WMDQaIMm3+7hGXWf12GtdniDEy7nYcyFMKJn/eZz/6tSLXrUN9V0wKSbMjej0I1WHWbpREDEKHtqPQa9NNw==
 
-typed-scss-modules@^6.5.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/typed-scss-modules/-/typed-scss-modules-6.5.0.tgz#158940eac0e389bad6a23dcd86e8b52443adf036"
-  integrity sha512-84PmewX4VR45+ylkeU5q9CHj/8XSI2SnVLIl9XydHKJ5va5WinXQ6J15GLkhA7q0JKKAkla875KzbjYT0VRdFQ==
+typed-scss-modules@^6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/typed-scss-modules/-/typed-scss-modules-6.6.0.tgz#3ddea05d86095b105899839f393c91493a42ea7e"
+  integrity sha512-0Igy9DKPGNsmCbKv2BM80DVVQY2cuOJVt4LWDD4QSnd0BvIIujlRD37+flP+xiRwtR5a3lqRSOhA1TxuCOR/gQ==
   dependencies:
     bundle-require "^3.0.4"
     chalk "4.1.2"
