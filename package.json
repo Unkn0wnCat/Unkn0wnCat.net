@@ -14,7 +14,7 @@
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sharp": "^4.22.0",
     "gatsby-plugin-sass": "^5.22.0",
-    "gatsby-plugin-sitemap": "^5.22.0",
+    "gatsby-plugin-sitemap": "^5.23.0",
     "gatsby-plugin-typescript": "^4.6.0",
     "gatsby-source-filesystem": "^4.22.0",
     "gatsby-source-youtube-v3": "^3.0.2",
