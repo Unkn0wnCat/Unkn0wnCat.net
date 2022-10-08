@@ -1459,10 +1459,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@icons-pack/react-simple-icons@^5.4.0":
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-5.4.0.tgz#4ebf6d3d636f2be84b8b653686d8258fe8fbb207"
-  integrity sha512-EN8Db9c5D1JuSSKwl1NrjPl050fARgTsdMQrPU23BeHy3s3cDvrjossUw9XeQ5aN2NN1xZOmXM6kP4aSbNhsQg==
+"@icons-pack/react-simple-icons@^5.8.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@icons-pack/react-simple-icons/-/react-simple-icons-5.8.0.tgz#d8e3714dfa13928e94113d97734aeacdca0d468d"
+  integrity sha512-5szUSKt/jslgOsNmH+uRs9wfRVl399Xhwf4//V28H5TXgMXZPaqQ+w82mMwmapsMW6DigFkgynLHZcic43PQRw==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
@@ -6120,14 +6120,6 @@ gatsby-script@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-script/-/gatsby-script-1.9.0.tgz#6fdc1ba4c5930cb251a35a958fafee44a99a6f78"
   integrity sha512-xGhaTVNdDokZDkiZ6sGtAwyEzbpml+RFFX0kFEkS0Ii3MwdZT44H558B4Y8l7X9wB0OEENcSczc/DULVhRoXBA==
-
-gatsby-sharp@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/gatsby-sharp/-/gatsby-sharp-0.18.0.tgz#bee4bbae079917afec20d005c9aee75ce7fd0755"
-  integrity sha512-tnGWupSZc4y3UgcAR2ENma9WGBYkCdPFy5XrTgAmqjfxw6JDcJz+H3ikHz9SuUgQyMnlv2QdossHwdUBcVeVGw==
-  dependencies:
-    "@types/sharp" "^0.30.5"
-    sharp "^0.30.7"
 
 gatsby-sharp@^0.18.0:
   version "0.18.0"
