@@ -5,7 +5,7 @@
   "author": "Kevin Kandlbinder <kevin@kevink.dev>",
   "dependencies": {
     "@fontsource/noto-sans-display": "^4.5.13",
-    "@icons-pack/react-simple-icons": "^5.11.0",
+    "@icons-pack/react-simple-icons": "^6.0.0",
     "dotenv": "^16.0.3",
     "gatsby": "^4.24.5",
     "gatsby-plugin-image": "^2.24.0",
