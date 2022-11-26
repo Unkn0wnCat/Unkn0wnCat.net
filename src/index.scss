@@ -1,0 +1,22 @@
+@use "@fontsource/nunito/scss/mixins" as Nunito;
+
+@include Nunito.fontFaceVariable($type: "wghtOnly");
+
+*,
+*::after,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#___gatsby {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "NunitoVariable", "Nunito", "Nunito Sans", sans-serif;
+}
