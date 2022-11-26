@@ -31,6 +31,14 @@ const config: GatsbyConfig = {
             },
             __key: "pages",
         },
+        {
+            resolve: `gatsby-source-youtube-v3`,
+            options: {
+                channelId: ["UCCoZp-6_P3CVFj4clQ6uaeg"],
+                apiKey: process.env.YOUTUBE_API_KEY,
+                maxVideos: 60,
+            },
+        },
     ],
 };
 
