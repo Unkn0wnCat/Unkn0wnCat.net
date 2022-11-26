@@ -1,0 +1,58 @@
+@import "../global";
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .navigation {
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 900;
+        background-color: var(--color-base);
+
+        > .navigationBorder {
+            max-width: var(--layout-width);
+            width: 100%;
+            margin: 0 auto;
+            margin-top: -10px;
+            height: 15px;
+            background-image: repeating-linear-gradient(
+                var(--layout-slant),
+                white 0px,
+                var(--color-splash) 0.5px 3px,
+                white 3.5px 12px
+            );
+        }
+
+        > nav {
+            max-width: var(--layout-width);
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            z-index: 905;
+
+            a {
+                padding: var(--layout-padding);
+                text-decoration: none;
+                font-size: 1.3em;
+                font-weight: 700;
+
+                &.logo {
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+
+    .main {
+        flex-grow: 1;
+    }
+
+    footer {
+        padding: var(--layout-padding);
+        text-align: center;
+    }
+}

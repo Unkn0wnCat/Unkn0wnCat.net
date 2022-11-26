@@ -1,6 +1,11 @@
-@use "@fontsource/nunito/scss/mixins" as Nunito;
+@use "@fontsource/roboto-flex/scss/mixins" as RobotoFlex;
+@import "./global";
 
-@include Nunito.fontFaceVariable($type: "wghtOnly");
+@include RobotoFlex.fontFaceVariable($type: "full");
+
+:root {
+    @include vars;
+}
 
 *,
 *::after,
@@ -10,7 +15,8 @@
 
 html,
 body,
-#___gatsby {
+#___gatsby,
+#gatsby-focus-wrapper {
     width: 100%;
     min-height: 100vh;
     padding: 0;
@@ -18,5 +24,13 @@ body,
 }
 
 body {
-    font-family: "NunitoVariable", "Nunito", "Nunito Sans", sans-serif;
+    font-family: "Roboto FlexVariable", "RobotoVariable", "Roboto Flex",
+        "Roboto", sans-serif;
+    color: var(--color-splash);
+    background-color: var(--color-base);
+}
+
+a {
+    color: inherit;
+    text-decoration: underline dotted currentColor;
 }

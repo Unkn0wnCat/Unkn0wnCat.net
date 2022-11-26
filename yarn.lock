@@ -1071,10 +1071,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/nunito@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@fontsource/nunito/-/nunito-4.5.11.tgz#0992075ddc3f3ed8e3e83bf5944b1b0efd4c24dd"
-  integrity sha512-j2WIvzsI+6wjbJ/gQjyHJL/SYZxyg1qomvRswMZAWj2lvv+eX4kzJOSbr9YhZLYywoMspYb0643EO4cHRy6zpQ==
+"@fontsource/roboto-flex@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-flex/-/roboto-flex-4.5.2.tgz#f487bd75a52c9fcb3a77d05b10766afbe5c77393"
+  integrity sha512-GYG8WbC9K8HdIYwIzgPb7dc4CrMMb0QUOP6IYPeuVvd33PyZRvVvu1CvRzXhqbI+trV37Ti3WBCfJJl9RvsVTQ==
 
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.2.0":
   version "2.2.0"
