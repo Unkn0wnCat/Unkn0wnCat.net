@@ -28,6 +28,7 @@ body {
         "Roboto", sans-serif;
     color: var(--color-splash);
     background-color: var(--color-base);
+    @include animate;
 }
 
 a {

@@ -12,6 +12,7 @@
         width: 100%;
         z-index: 900;
         background-color: var(--color-base);
+        @include animate;
 
         > .navigationBorder {
             max-width: var(--layout-width);
@@ -25,6 +26,7 @@
                 var(--color-splash) 0.5px 3px,
                 var(--color-base) 3.5px 12px
             );
+            @include animate;
         }
 
         > nav {

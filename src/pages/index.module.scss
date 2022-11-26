@@ -68,6 +68,7 @@
                 margin: 7px 0;
                 height: 3px;
                 background-color: var(--color-splash);
+                @include animate;
             }
 
             .impactBox {
