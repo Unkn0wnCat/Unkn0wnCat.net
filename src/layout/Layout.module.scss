@@ -15,7 +15,7 @@
 
         > .navigationBorder {
             max-width: var(--layout-width);
-            width: 100%;
+            width: calc(100% - 20px);
             margin: 0 auto;
             margin-top: -10px;
             height: 15px;

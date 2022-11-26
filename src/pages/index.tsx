@@ -1,6 +1,8 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Layout from "../layout/Layout";
+import { Youtube, Twitch, Steam } from "@icons-pack/react-simple-icons";
+import { Gamepad2 } from "lucide-react";
 
 import * as styles from "./index.module.scss";
 import { StaticImage } from "gatsby-plugin-image";
@@ -35,28 +37,28 @@ const IndexPage: React.FC<PageProps> = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Unkn0wnCat
+                                <Youtube /> Unkn0wnCat
                             </a>
                             <a
                                 href="https://www.twitch.tv/thatunkn0wncat"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                ThatUnkn0wnCat
+                                <Twitch /> ThatUnkn0wnCat
                             </a>
                             <a
                                 href="https://steamcommunity.com/id/unkn0wncat"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Unkn0wnCat
+                                <Steam /> Unkn0wnCat
                             </a>
                             <a
                                 href="https://kreig.de/de/members/75eec884-c9fc-4626-82bd-f0fdaaa1a4c0"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                My Clan (KREIG)
+                                <Gamepad2 /> My Clan (KREIG)
                             </a>
                         </div>
                         <div className={styles.impactBox} />
