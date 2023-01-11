@@ -11714,10 +11714,10 @@ type@^2.5.0:
   resolved "https://registry.yarnpkg.com/type/-/type-2.5.0.tgz#0a2e78c2e77907b252abe5f298c1b01c63f0db3d"
   integrity sha512-180WMDQaIMm3+7hGXWf12GtdniDEy7nYcyFMKJn/eZz/6tSLXrUN9V0wKSbMjej0I1WHWbpREDEKHtqPQa9NNw==
 
-typed-scss-modules@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/typed-scss-modules/-/typed-scss-modules-7.0.1.tgz#f6688bba29e6ebf5a6d0a5064bfd85863c334263"
-  integrity sha512-x4qfDUT3WFvHH3NV+aadwEmRDs48JSeFNQsKQNKAzHL2wheZgiSasgkxbUQwzfA/gjwFb8L6+qxyJ3uCV0dJ+w==
+typed-scss-modules@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/typed-scss-modules/-/typed-scss-modules-7.0.2.tgz#d6166c89decbeb1257ef607f4161593e5a81d4d4"
+  integrity sha512-JEr3N96dt6HA3kN7u8kRqe9Hvou3tK5jT8JL6rR0PfOeMzjmBoN58iW94CjB4zchQ4h97GAJ8p85S+y+MQZBeA==
   dependencies:
     bundle-require "^3.0.4"
     chalk "4.1.2"
