@@ -4,7 +4,7 @@
   "version": "2.1.0",
   "author": "Kevin Kandlbinder <kevin@kevink.dev>",
   "dependencies": {
-    "@fontsource/noto-sans-display": "^4.5.13",
+    "@fontsource/noto-sans-display": "^4.5.14",
     "@icons-pack/react-simple-icons": "^6.2.0",
     "dotenv": "^16.0.3",
     "gatsby": "^4.25.3",
