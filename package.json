@@ -20,7 +20,7 @@
     "gatsby-source-youtube-v3": "^3.0.2",
     "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.25.0",
-    "lucide-react": "^0.115.0",
+    "lucide-react": "^0.123.0",
     "prop-types": "^15.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
