@@ -21,7 +21,9 @@ jobs:
         run: yarn
 
       - name: Build site
-        run: yarn build
+        run: yarn build      
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
