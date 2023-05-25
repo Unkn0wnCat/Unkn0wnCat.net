@@ -1,0 +1,35 @@
+name: Deploy to Cloudflare Pages
+run-name: ${{ github.actor }} created a deployment.
+
+on:
+  push:
+    branches:
+      - main
+      - nextgen
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build site
+        run: yarn build      
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          gitHubToken: ${{ secrets.GH_TOKEN }}
+          accountId: 'f22a1f53518621246180c8f74f7e02e3'
+          projectName: 'unkn0wncat-next'
+          directory: './public'

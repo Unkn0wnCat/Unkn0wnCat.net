@@ -1,134 +1,111 @@
-@import "../globals";
+@import "../global";
 
-$layoutTwoColBreakpoint: 800px;
+.container {
+    @include boxConstraints;
+    padding-top: var(--layout-padding);
 
     .hero {
-        margin-top: -$layoutNavHeight;
-    
-        
-        height: 100%;
-        min-height: 880px;
-    
-    
-        position: relative;
-        overflow: hidden;
+        display: flex;
+        min-height: 80vh;
+        align-items: center;
+        justify-content: center;
+        margin-top: var(--layout-padding);
 
-        .heroHalo {
-            position: absolute;
-            left: 50%;
-            transform: translate(-63%, 0);
-            background: radial-gradient(circle at 44% 50%, var(--color-glass-primary) 0, transparent 40%);
-            width: 70%;
-            height: 100%;
-            transition: opacity .25s;
+        > * {
+            width: 50%;
+            flex-shrink: 0;
+        }
 
-            @media (max-width: $layoutTwoColBreakpoint) {
-                opacity: 0;
-            }
-        }
-    
-        .heroImage {
-            position: absolute;
-            transform: translate(-130%, 0);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            top: 50px;
-            left: 50%;
-            height: 90%;
-            max-width: 330px;
-            width: 30%;
-            transition: width .25s;
-    
-            @media (max-width: $layoutTwoColBreakpoint) {
-                width: 0;
-            }
-        }
-    
-        .heroBox, .heroBoxBg {
-            position: absolute;
-            top: 25%;
-            left: 50%;
-            width: 400px;
-            height: 400px;
-            transition: transform .25s, clip-path .25s, width .25s, height .25s;
-    
-            @media (max-width: $layoutTwoColBreakpoint) {
-                transform: translate(-50%, 0);
-            }
-    
-            @media (max-width: 400px) {
-                clip-path: polygon(0 0,100% 0,100% 100%,0 100%) !important;
-                
-                &.heroBoxBg {
-                    height: 410px;
-                    transform: translate(-50%, -5px);
-                    width: 100%;
-                }
-                
-                &.heroBox {
-                    width: calc(100% - 10px);
-                }
-    
+        .chibi {
+            > .imgWrapper {
+                max-height: 80vh;
+                margin: 0 auto;
+                overflow: hidden;
+
                 > div {
-                    transform: rotate(0deg) !important;
-                    padding: $layoutPadding !important;
+                    object-fit: contain;
+                    height: 100%;
+                    max-height: 80vh;
+                    display: block;
                 }
             }
+
+            transition: width 0.25s;
+
+            @media (max-width: 800px) {
+                width: 0px;
+                flex-grow: 0;
+            }
         }
-    
-        .heroBox {
-            clip-path: polygon(6% 8%,88% 5%,95% 91%,7% 96%);
-            background-color: var(--color-primary-lighter);
-            color: white;
-    
-            > div {
-                transform: rotate(-2deg);
-                padding: 45px;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: width 0.25s;
+            max-width: 400px;
+
+            @media (max-width: 800px) {
+                width: 90%;
+                max-width: 400px;
+            }
+
+            .infoTitle {
+                display: block;
+                font-size: 3em;
+                font-weight: 900;
+                margin-bottom: -10px;
+            }
+
+            .tagLine {
+                font-style: italic;
+                font-weight: 300;
+                font-variation-settings: "wdth" 151;
+                font-size: 1.5em;
+            }
+
+            .impactLine {
+                margin: 7px 0;
+                height: 3px;
+                background-color: var(--color-splash);
+                @include animate;
+            }
+
+            .impactBox {
+                height: 90px;
+                background-image: repeating-linear-gradient(
+                    var(--layout-slant),
+                    var(--color-base) 0px,
+                    var(--color-splash) 0.5px 3px,
+                    var(--color-base) 3.5px 12px
+                );
+            }
+
+            .links {
                 display: flex;
                 flex-direction: column;
-                transition: transform .25s, padding .25s;
-    
-                .name {
-                    font-size: 2em;
-                    font-weight: 700;
-                }
-    
-                .description {
-                    margin-bottom: 25px;
-                }
-    
-                a {
-                    color: inherit;
+                gap: var(--layout-padding);
+                padding: var(--layout-padding);
+
+                > a {
                     display: flex;
                     align-items: center;
-                    margin-bottom: 10px;
-    
-                    svg {
-                        margin-right: 10px;
+
+                    > svg {
+                        margin-right: var(--layout-padding);
                     }
                 }
             }
         }
-    
-        .heroBoxBg {
-            clip-path: polygon(14% 4%,95% 1%,88% 96%,2% 89%);
-            background-color: var(--color-secondary-lighter);
-        }
-
-        .artCredit {
-            position: absolute;
-            bottom: $layoutPadding;
-            left: 50%;
-            padding: 0 $layoutPadding;
-            color: white;
-            opacity: .25;
-            transition: opacity .25s;
-            transform: translate(-150%, 0);
-
-            @media (max-width: $layoutTwoColBreakpoint) {
-                opacity: 0;
-            }
-        }
     }
 
+    .artCredit {
+        transition: opacity 0.25s;
+        padding: var(--layout-padding);
+
+        @media (max-width: 800px) {
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+}

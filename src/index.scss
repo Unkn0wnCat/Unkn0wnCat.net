@@ -1,168 +1,37 @@
-@use "@fontsource/noto-sans-display/scss/mixins" as NotoSansDisplay;
-@import "./globals";
+@use "@fontsource/roboto-flex/scss/mixins" as RobotoFlex;
+@import "./global";
 
-@include NotoSansDisplay.fontFaceVariable($weight: 400);
+@include RobotoFlex.fontFaceVariable($type: "full");
 
 :root {
-    --color-foreground: #0e0e0e;
-    --color-background: white;
-    --color-glass-background: #{rgba(white, 0.75)};
-    --color-primary: #3d2aec;
-    --color-primary-lighter: #503ef0;
-    --color-secondary: #e91b3e;
-    --color-secondary-lighter: #e43e5a;
-
-    --color-glass-primary: #{rgba(#503ef0, 0.75)};
-
-    --color-footer-background: #1c1c1c;
-    --color-footer-foreground: white;
-
-    @media(prefers-color-scheme: dark) {
-        --color-foreground: white;
-        --color-background: #0e0e0e;
-        --color-glass-background: #{rgba(#0e0e0e, 0.75)};
-        --color-primary: #3d2aec;
-        --color-primary-lighter: #503ef0;
-        --color-secondary: #e91b3e;
-        --color-secondary-lighter: #e43e5a;
-
-        --color-glass-primary: #{rgba(#503ef0, 0.45)};
-
-        --color-footer-background: #1c1c1c;
-        --color-footer-foreground: white;
-    }
+    @include vars;
 }
 
-* {
+*,
+*::after,
+*::after {
     box-sizing: border-box;
 }
 
 html,
-body {
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
     width: 100%;
-    height: 100%;
-    margin: 0;
+    min-height: 100vh;
     padding: 0;
-    background: var(--color-background);
-    color: var(--color-foreground);
-    font-family: $fontMain;
+    margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 1em 0;
-    font-weight: 600;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1.75em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-h4 {
-    font-size: 1.25em;
-}
-
-h5 {
-    font-size: 1.15em;
-}
-
-h6 {
-    font-size: 1em;
-    opacity: 0.5;
-}
-hr {
-    border: none;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
-}
-
-ul,
-ol {
-    padding-left: 1.5em;
-
-    > li {
-        padding-left: 0.5em;
-    }
+body {
+    font-family: "Roboto FlexVariable", "RobotoVariable", "Roboto Flex",
+        "Roboto", sans-serif;
+    color: var(--color-splash);
+    background-color: var(--color-base);
+    @include animate;
 }
 
 a {
-    color: var(--color-primary);
-    text-decoration: underline dotted currentcolor;
-}
-
-pre {
-    padding: 16px;
-    background: rgba(128, 128, 128, 0.15);
-    border-radius: 5px;
-    line-height: 1.5;
-}
-
-table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    border-spacing: 0;
-    border-collapse: collapse;
-    tr {
-        border-top: thin solid rgba(128, 128, 128, 0.35);
-
-        &:nth-child(2n) {
-            background: rgba(128, 128, 128, 0.15);
-        }
-
-        th {
-            font-weight: 600;
-        }
-
-        td,
-        th {
-            border: thin solid rgba(128, 128, 128, 0.35);
-            padding: 6px 14px;
-        }
-    }
-}
-
-blockquote {
-    margin-left: 0;
-    padding-left: 20px;
-    border-left: 3px solid rgba(128, 128, 128, 0.5);
-    opacity: 0.7;
-    font-style: oblique;
-
-    > .quote-source {
-        display: block;
-        margin-left: 1em;
-        font-style: oblique;
-        opacity: 0.75;
-
-        &::before {
-            content: "-- ";
-        }
-    }
-}
-
-dl {
-    dt {
-        font-weight: 700;
-    }
-    dd {
-        font-style: oblique;
-    }
-}
-
-#___gatsby,
-#gatsby-focus-wrapper,
-.content {
-    height: 100%;
+    color: inherit;
+    text-decoration: underline dotted currentColor;
 }

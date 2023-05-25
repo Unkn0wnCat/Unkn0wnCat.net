@@ -1,0 +1,42 @@
+@mixin vars {
+    --color-base: white;
+    --color-splash: #234ef6;
+
+    --layout-width: 1000px;
+    --layout-padding: 20px;
+    --layout-slant: -30deg;
+    --layout-radius: 20px;
+
+    @media (prefers-color-scheme: dark) {
+        --color-base: #190b22;
+        --color-splash: red;
+    }
+    /*
+    --color-base: #190b22;
+    --color-splash: red;
+    */
+}
+
+@mixin boxConstraints {
+    max-width: var(--layout-width);
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin animate {
+    transition: all 0.25s;
+
+    @include respectReducedMotion;
+}
+
+@mixin respectReducedMotion {
+    @media (prefers-reduced-motion: reduce) {
+        transition: none !important;
+        animation: none !important;
+
+        * {
+            transition: none !important;
+            animation: none !important;
+        }
+    }
+}

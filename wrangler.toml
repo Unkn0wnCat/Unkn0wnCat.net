@@ -1,9 +1,0 @@
-name = "unkn0wncat-net"
-type = "webpack"
-account_id = "f22a1f53518621246180c8f74f7e02e3"
-zone_id = "3e40b0d0fa5369e86c2887e981b9bd80"
-route = "unkn0wncat.net/*"
-
-[site]
-bucket = "./public"
-entry-point = "workers-site"
