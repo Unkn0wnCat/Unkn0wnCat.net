@@ -21,7 +21,7 @@
     "@fontsource/roboto-flex": "^4.5.2",
     "@icons-pack/react-simple-icons": "^6.1.0",
     "@mdx-js/react": "^2.1.5",
-    "gatsby": "^5.0.0",
+    "gatsby": "^5.9.1",
     "gatsby-plugin-image": "^3.2.0",
     "gatsby-plugin-mdx": "^5.2.0",
     "gatsby-plugin-sass": "^6.2.0",
